@@ -1,4 +1,4 @@
-** TypeScript:
+# TypeScript:
 It is superset to Javascript. This is not a Javascript library. It just extends the core Javascript principles. It adds static typing to Javascript. Javascript is dynamically typed.
 
 To use TypeScript, use the following commands.
