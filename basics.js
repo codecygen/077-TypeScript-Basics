@@ -2,63 +2,48 @@
 // Complex types: array, object
 // Function types, parameters
 ////////////////////////////////////////////////
-
-
 // Primitives: number, string, boolean
-let age: number;
+var age;
 age = 12;
-let age2: number = 20;
-
-let userName: string;
+var age2 = 20;
+var userName;
 userName = 'Aras';
-
-let isDeveloper: boolean;
+var isDeveloper;
 isDeveloper = true;
-
 // Complex types: array, object
-let hobbies: string[];
+var hobbies;
 hobbies = ['Programming', 'Chess'];
-
-let person: any;
+var person;
 person = {
     name: 'James',
     age: 30
-}
-
-let person2;
+};
+var person2;
 person2 = {
     name: 'Michael',
     age: 18
-}
-
-let person3: {
-    name: string;
-    age: number;
-}
+};
+var person3;
 person3 = {
     name: 'Davis',
     age: 47
-}
-
-let personArray: {
-    name: string;
-    age: number;
-}[]
+};
+var personArray;
 personArray = [
     {
         name: 'Laura',
         age: 10
     },
-
     {
         name: 'Daniel',
         age: 45
     },
 ];
-
 // Type inference
-let course = 'React - The Complete Guide';
-// TypeScript will assume that the variable
-// is a String, so you cannot change it to a
-// number. This is called "Type inference".
-// course = 123;
+var course = 'React - The Complete Guide';
+try {
+    course = 123;
+}
+catch (e) {
+    console.log(e.message);
+}
