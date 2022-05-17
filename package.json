@@ -1,7 +1,7 @@
 {
   "name": "typescript-basics",
   "version": "1.0.0",
-  "description": "",
+  "description": "It is superset to Javascript. This is not a Javascript library. It just extends the core Javascript principles. It adds static typing to Javascript. Javascript is dynamically typed.",
   "main": "no-typescript.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "typescript": "^4.6.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codecygen/077-TypeScript-Basics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codecygen/077-TypeScript-Basics/issues"
+  },
+  "homepage": "https://github.com/codecygen/077-TypeScript-Basics#readme"
 }

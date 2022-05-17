@@ -57,8 +57,13 @@ personArray = [
 ];
 
 // Type inference
-let course = 'React - The Complete Guide';
+let course = 'React';
 // TypeScript will assume that the variable
 // is a String, so you cannot change it to a
 // number. This is called "Type inference".
 // course = 123;
+
+let unionTypeVar: string | number | boolean = 'String value is hold in this var!';
+unionTypeVar = false;
+
+let arrayOfStrings: string[] = ['Aras', 'Sen'];
